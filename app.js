@@ -61,8 +61,8 @@ app.post("/belanja", (req, res) => {
 
 
 // TODO 4: PUT /belanja/:id -> cari index berdasarkan id,
-// jika tidak ditemukan kirim 404, jika ditemukan gabungkan data lama
-// dengan req.body lalu kirim data yang telah diperbarui
+// jika tidak ditemukan kirim 404,
+// Jika ditemukan gabungkan data lama dengan req.body lalu kirim data yang telah diperbarui
 app.put("/belanja/:id", (req, res) => {
   // lengkapi di sini
   const id = parseInt(req.params.id);
